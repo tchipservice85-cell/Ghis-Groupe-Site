@@ -1,0 +1,80 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Services — Ghis Group</title>
+  <meta name="description" content="Ghis Group — création de sites vitrines, affiches et solutions numériques.">
+  <link rel="stylesheet" href="css/style.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js" defer></script></head><body><header class="nav"><div class="container nav-inner"><a class="brand" href="index.html"><img src="assets/Ghis_Group.webp" alt="Logo Ghis Group"><span>GHIS GROUP</span></a><input id="menu-toggle" class="menu-toggle" type="checkbox"><label for="menu-toggle" class="menu-button" aria-label="Ouvrir le menu"><span></span><span></span><span></span></label><nav class="menu">
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a><a href="comment-ca-marche.html">Comment ça marche</a><a href="contact.html">Contact</a></nav></div></header><main><section class="section"><div class="container"><div class="section-head reveal"><span class="eyebrow">services</span><h2>Nos services, actuellement disponibles.</h2><p>Choisissez ce dont votre activité a besoin.</p></div>
+      <div class="cards">
+        <article class="card reveal"><div class="icon">
+          <img src="assets/icons/globe.svg" alt=""></div>
+          <h3>Création de site vitrine</h3>
+          <p>Pages modernes, responsive, rapides et structurées pour les moteurs de recherche.</p>
+          <h4> </h4>
+          <h5 style="color: orange;">20-150$</h5>
+        </article>
+        <article class="card reveal" style="overflow: auto;">
+        <div class="icon">
+          <img src="assets/icons/palette.svg" alt=""></div><h3>Création d'affiches</h3><p>Visuels promotionnels adaptés aux réseaux sociaux, à l'impression ou au web.</p>
+          <h4>Voici un exemple de plus de cinq affiches </h4>
+          <h5 style="color: orange;">3-7$</h5>
+        <div style="overflow-x:auto; display: flex; flex-direction: row; gap: 10px;">
+            <img src="assets/icons/affiche.png" alt="" style="width: 120px; height: auto">
+            <img src="assets/icons/gourmande.png" alt="" style="width: 200px; height: auto">
+            <img src="assets/icons/amadou.png" alt="" style="width: 200px; height: auto">
+            <img src="assets/icons/FastTrans.png" alt="" style="width: 200px; height: auto">
+          <img src="assets/icons/danse.png" alt="" style="width: 200px; height: auto">
+          </div>
+      </article>
+        <article class="card reveal" style="overflow: auto;">
+          <div class="icon">
+            <img src="assets/icons/qr.svg" alt="">
+          </div>
+          <h3>QR codes</h3>
+          <p>Création de QR codes pour vos liens, produits, contacts ou supports.</p>
+          <h4>Voici un exemple de plus de sept QR codes </h4>
+          <h5 style="color: orange;">1-10$</h5>
+          <div style="overflow-x:auto; display: flex; flex-direction: row; gap: 10px;">
+            <img src="assets/icons/QR-1.png" alt="" style="width: 100px; height: auto">
+            <img src="assets/icons/QR-2.png" alt="" style="width: 100px; height: auto">
+            <img src="assets/icons/QR-3.png" alt="" style="width: 100px; height: auto">
+            <img src="assets/icons/QR-5.png" alt="" style="width: 100px; height: auto">
+            <img src="assets/icons/Ghis_Group_QR_fonctionnel.png" alt="" style="width: 100px; height: auto">
+            <img src="assets/icons/Ghis_Group_QR_code.png" alt="" style="width: 100px; height: auto">
+            <img src="assets/icons/QR-6.png" alt="" style="width: 100px; height: auto">
+            <img src="assets/icons/QR-7.png" alt="" style="width: 100px; height: auto">
+
+          </div>
+        </article>
+        <article class="card reveal" style="overflow: auto">
+            <div class="icon">
+              <img src="assets/icons/barcode.svg" alt="">
+            </div>
+          <h3>Codes-barres</h3>
+          <p>Création de Codes-barres pour vos liens, produits, contacts ou supports.</p>
+          <h4>Voici un exemple de plus de trois aff </h4>
+          <h5 style="color: orange;">1-6$</h5>
+          <div style="overflow-x:auto; display: flex; flex-direction: row; gap: 10px;">
+            <img src="assets/icons/barre-1.png" alt="" style="width: 100px; height: auto">
+            <img src="assets/icons/barre-2.png" alt="" style="width: 100px; height: auto">
+            <img src="assets/icons/barre-3.png" alt="" style="width: 100px; height: auto">
+            <img src="assets/icons/barre-4.png" alt="" style="width: 100px; height: auto">
+          </div>
+          </article>
+        <article class="card reveal">
+            <div class="icon"><img src="assets/icons/check.svg" alt=""></div><h3>Optimisation SEO</h3><p>Métadonnées, structure technique et sitemap pour faciliter la découverte du site.</p></article><article class="card reveal">
+                <div class="icon"><img src="assets/icons/globe.svg" alt=""></div><h3>Présence digitale</h3><p>Une base claire pour présenter vos services et permettre à vos clients de vous contacter.</p>   
+            </article></div>
+      <div class="section-head reveal tool-heading" style="display: none;"><h2>Petits outils numériques</h2><p>Génération rapide de QR codes et de codes-barres directement dans le navigateur.</p></div>
+      <div class="tools-grid">
+        
+        <article class="tool card reveal" style="display: none;"><div class="icon">
+          <img src="assets/icons/barcode.svg" alt=""></div><h3>Générateur code-barres</h3>
+          <label for="barcodeText">Code</label>
+          <input id="barcodeText" class="tool-input" type="text" value="GHISGROUP">
+          <button class="btn btn-primary" type="button" onclick="makeBarcode()">Générer</button>
+          <div class="tool-output"><svg id="barcode"></svg></div>
+        </article></div></div></section></main><footer><div class="container footer-inner">
+            <a class="footer-brand" href="index.html"><img src="assets/Ghis_Group.webp" alt="Logo Ghis Group"><span>GHIS GROUP</span></a>
+            <span>© 2026 Ghis Group — Votre présence en ligne, notre priorité.</span></div>
+            </footer>
+    <script src="js/app.js">
+    </script></body></html>

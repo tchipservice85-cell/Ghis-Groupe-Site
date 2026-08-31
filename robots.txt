@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fabulous-florentine-035e89.netlify.app/sitemap.xml
